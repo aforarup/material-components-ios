@@ -415,7 +415,7 @@ static inline UIColor *MDCTextInputUnderlineColor() {
                                                                       toItem:_textInput
                                                                    attribute:NSLayoutAttributeBottom
                                                                   multiplier:1
-                                                                    constant:0];
+                                                                    constant:16];
   leadingBottom.priority = UILayoutPriorityDefaultLow;
 
   NSLayoutConstraint *trailingBottom =
